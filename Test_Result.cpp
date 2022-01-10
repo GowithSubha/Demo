@@ -3,7 +3,7 @@ using namespace std;
 class student
 {
 protected:
-    int roll;
+    int roll_number;
     
 
 public:
@@ -12,11 +12,11 @@ public:
 };
 void student::get_number(int r)
 {
-    roll = r;
+    roll_number = r;
 }
 void student::put_number(void)
 {
-    cout << "\nRoll number is:\t\t" << roll << endl;
+    cout << "\nRoll number is:\t\t" << roll_number << endl;
 }
 class test : public student
 {
